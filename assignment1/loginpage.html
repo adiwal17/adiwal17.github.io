@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+<title>Login|Page</title>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+<style type="text/css">
+	
+	.bar{
+		overflow:hidden;
+		background-color:#007399;
+		box-shadow:30px black;
+		margin:0px;
+		padding:0px;
+		text-align:center;
+		box-shadow:5px 5px 5px 5px black;
+	}
+	body{
+		background:url(ktj.jpg);
+	}
+	div{
+		margin:0px;
+		padding:0px;
+	}
+	#box{
+		overflow:hidden;
+		width:400px;
+		height:400px;
+		border-radius:250px;
+		text-align:center;
+		background-color:#007399;
+		position:relative;
+		top:80px;
+		left:480px;
+		box-shadow:4px 4px 4px 4px black;
+	}
+	.text{
+		position:relative;
+		font-size:150%;
+		top:60px;
+		left:0px;
+	}
+	.txt{
+		color:white;
+		font-family:cursive;
+	}
+	.txt2{
+		color:#80dfff;
+		font-damily:cursive;
+	}
+	input[type=text],input[type=password] {
+
+    		width: 200px; 
+		padding: 10px 12px;
+    		margin:5px;
+    		border: 1px solid black;
+    		border-radius: 1px;
+    		text-align: center;
+	}
+	input[type=submit]{
+		width: 200px; 
+		padding: 10px 12px;
+    		margin:5px;
+		border:2px solid black;
+    		box-shadow:4px 4px 4px 4px black;
+    		text-align: center;
+		color:black;
+		font-family:Lucida Sans Unicode;
+		font-weight:bold;
+		cursor:pointer;
+		background-color:#80dfff;
+	}
+	.bottom{
+		position:relative;
+		top:90px;
+		left:500px;
+		font-weight:bold;
+		font-size:120%;
+
+	}
+	a {
+    		color:white; 
+    		background-color:#007399; 
+    		text-decoration: none;
+		font-family:cursive;
+	}
+
+	a:hover {
+    		color: red;
+    		background-color: transparent;
+    		text-decoration: underline;
+	}
+
+	a:active {
+    		color: yellow;
+    		background-color: transparent;
+    		text-decoration: underline;
+	}
+	
+	
+</style>
+</head>
+
+<body>
+	<div class="bar">
+		<img src="Kshitij_Logo.png" width="100px" height="100px" float:centre margin-top:20px>
+	</div>
+	<div id="box">
+		<form class="text" action="/action_page.php" mehtod="get">
+		<span class="txt">Username</span><br>
+		<input type="text" name="username" placeholder="username@example.com"><br>
+		<span class="txt">Password</span><br>
+		<input type="password" name="password"><br><br>
+		<input type="submit" name="Sign In"><br><br>
+		<input type="checkbox" name="login">
+		<span class="txt2">Remember Me</span><br>
+		</form>
+	</div>
+
+	<div class="bottom">
+		<a href="#">Forgot Password</a>|<a href="#">Don't have an account?</a>
+	</div>
+</body>
+</html>

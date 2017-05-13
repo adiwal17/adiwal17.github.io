@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+<title>SignUp|Page</title>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+<style type="text/css">
+	
+	.bar{
+		overflow:hidden;
+		background-color:#007399;
+		box-shadow:30px black;
+		margin:0px;
+		padding:0px;
+		box-shadow:5px 5px 5px 5px black;
+	}
+	body{
+		background:url(ktj.jpg);
+	}
+	div{
+		margin:0px;
+		padding:0px;
+	}
+	#box{
+		overflow:hidden;
+		width:400px;
+		height:800px;
+		border-radius:5px;
+		text-align:center;
+		background-color:#007399;
+		box-shadow:4px 4px 4px 4px black;
+		position:relative;
+		top:50px;
+		left:500px;
+	}
+	.hd{
+		font-size:300%;
+		font-style:cursive;
+		font-weight:bold;
+		color:white;
+		position:relative;
+		left:400px;
+		margin-top:5px;
+		margin-bottom:5px;
+	}
+	input{
+    		width: 250px; 
+		padding: 10px 12px;
+    		margin:5px;
+    		border: 2px solid black;
+    		border-radius: 4px;
+    		text-align: center;
+	}	
+	select{
+		width: 250px; 
+		padding: 10px 12px;
+    		margin:5px;
+    		border: 2px solid black;
+    		border-radius: 4px;
+    		text-align: center;
+	}
+	input[type=submit]{
+		width: 250px; 
+		padding: 10px 12px;
+    		margin:5px;
+		border:2px solid black;
+    		text-align: center;
+		color:black;
+		font-family:cursive;
+		font-weight:bold;
+		cursor:pointer;
+		background-color:#80dfff;
+	}
+	
+</style>
+</head>
+
+<body>
+	<div class="bar">
+		<img src="kgp.png" width="100px" height="100px" float:right>
+		<img src="Kshitij_Logo.png" width="100px" height="100px" float:left>
+		<h class="hd"> PROFILE </h>
+	</div>
+	<div id="box">
+		<form action="/action_page.php"><br><br>
+  			<input type="text" name="fname" placeholder="First Name"><br>
+  			<input type="text" name="lname" placeholder="Last Name"><br>
+			<input type="email" name="mail" placeholder="email-id"><br>
+			<input type="password" name="pass" placeholder="Password"><br>
+			<input type="password" name="cpass" placeholder="Confirm Password"><br>
+			<input type="number" name="contact" placeholder="Contact no."><br>
+			<input type="text" name="add" placeholder="Address"><br>
+			<input type="date" name="dob" placeholder="Date Of Birth"><br>
+			<select name="gender" placeholder="Gender">
+  				<option value="male">Male</option>
+  				<option value="female">Female</option>
+			</select><br>
+			<select name="insti" placeholder="Institute">
+  				<option value="iitkgp">IIT Kharagpur</option>
+  				<option value="iitk">IIT Kanpur</option>
+			</select><br>
+			<select name="dep" placeholder="Department">
+  				<option value="cs">Computer Science</option>
+  				<option value="ee">Electrical</option>
+				<option value="me">Mechanical</option>
+				<option value="ce">Civil</option>
+				<option value="ch">Chemical</option>
+			</select><br>
+			<select name="year" placeholder="Year">
+  				<option value="1">1st</option>
+  				<option value="2">2nd</option>
+				<option value="3">3rd</option>
+				<option value="4">4th</option>
+				<option value="5">5th</option>
+			</select><br>
+			<select name="state" placeholder="State">
+  				<option value="dd">Delhi</option>
+  				<option value="gl">Gujrat</option>
+				<option value="kkr">West Bengal</option>
+				<option value="bh">Bihar</option>
+				<option value="jh">Jharkhand</option>
+			</select><br>
+			<select name="con" placeholder="Country">
+  				<option value="ind">India</option>
+  				<option value="usa">America</option>
+				<option value="aus">Australia</option>
+				<option value="wi">West Indies</option>
+				<option value="ca">Canada</option>
+			</select><br>
+			<input type="submit" value="Sign Up">
+		</form>
+	</div>
+</body>
+</html>
