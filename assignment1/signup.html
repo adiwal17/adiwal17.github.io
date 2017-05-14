@@ -11,40 +11,40 @@
 	
 	.bar{
 		overflow:hidden;
-		background-color:#007399;
+		background-color:rgb(50,50,50);
 		box-shadow:30px black;
 		margin:0px;
 		padding:0px;
 		box-shadow:5px 5px 5px 5px black;
 	}
 	body{
-		background:url(ktj.jpg);
+		background:url(techh.jpg);
+		background-repeat:no-repeat;
+		background-size:100% 100%;
 	}
 	div{
 		margin:0px;
 		padding:0px;
 	}
+	.hd{
+		font-size:500%;
+		padding:5%;
+		font-style:cursive;
+		color:white;
+		text-align:center;
+	}
 	#box{
-		overflow:hidden;
 		width:400px;
 		height:800px;
 		border-radius:5px;
 		text-align:center;
-		background-color:#007399;
+		border:4px blue solid;
 		box-shadow:4px 4px 4px 4px black;
-		position:relative;
-		top:50px;
-		left:500px;
-	}
-	.hd{
-		font-size:300%;
-		font-style:cursive;
-		font-weight:bold;
-		color:white;
-		position:relative;
-		left:400px;
-		margin-top:5px;
-		margin-bottom:5px;
+		margin:0 auto;
+		box-sizing:border-box;
+		padding-top:0%;
+		padding-bottom:10%;
+		margin:4% auto;
 	}
 	input{
     		width: 250px; 
@@ -80,9 +80,9 @@
 
 <body>
 	<div class="bar">
-		<img src="kgp.png" width="100px" height="100px" float:right>
-		<img src="Kshitij_Logo.png" width="100px" height="100px" float:left>
-		<h class="hd"> PROFILE </h>
+		<img src="kgp.png" width="100px" height="100px">
+		<img src="Kshitij_Logo.png" width="100px" height="100px">
+		<span class="hd">New Profile</span>
 	</div>
 	<div id="box">
 		<form action="/action_page.php"><br><br>
@@ -110,11 +110,11 @@
 				<option value="ch">Chemical</option>
 			</select><br>
 			<select name="year" placeholder="Year">
-  				<option value="1">1st</option>
-  				<option value="2">2nd</option>
-				<option value="3">3rd</option>
-				<option value="4">4th</option>
-				<option value="5">5th</option>
+  				<option value="1">1st year</option>
+  				<option value="2">2nd year</option>
+				<option value="3">3rd year</option>
+				<option value="4">4th year</option>
+				<option value="5">5th year</option>
 			</select><br>
 			<select name="state" placeholder="State">
   				<option value="dd">Delhi</option>
